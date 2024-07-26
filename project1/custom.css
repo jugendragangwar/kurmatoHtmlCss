@@ -1,0 +1,14 @@
+.hero_image{
+background: url(image1.avif) no-repeat;
+-webkit-background-size: cover ;
+background-size: cover;
+height: 100vh ;
+position: relative;
+}
+.hero_wrapper{
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
