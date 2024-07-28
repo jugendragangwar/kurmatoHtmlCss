@@ -1,0 +1,74 @@
+body {
+    background-image: url(image1.jpg);
+    background-size: 100% 700px;
+    height: 1200;
+    width: 1200;
+}
+.item1 {
+    color: white;
+    margin: 30px;
+    height: 22px;
+    width: 180px;
+    text-decoration: solid;
+    margin-top: 5%;
+}
+/* Image CSS */
+.image {
+    margin-top: 15%;
+    height: 100px;
+    width: 220px;
+}
+.image2 {
+    height: 80px;
+    width: 200px;
+}
+.img {
+    height: 80px;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header Item CSS */
+.allItem {
+    display: flex;
+    justify-content: center;
+}
+
+/* Form CSS */
+.reg {
+    text-align: center;
+    box-sizing: content-box;
+    border-color: rgb(84, 84, 213);
+    border-style: ridge;
+    width: 35%;
+    background: #6cabcf75;
+}
+/* Button CSS */
+.reg button{
+    background-color: aqua;
+}
+/* Heading and text */
+.text{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Text CSS */
+.text h2{
+    height: 26vh;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    width: 30rem;
+}     

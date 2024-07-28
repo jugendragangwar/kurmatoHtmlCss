@@ -11,4 +11,56 @@ position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    color: black;
+}
+.hero_wrapper h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+}
+.hero_wrapper span{
+    margin-left: 4rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: white;
+    font-size: 130%;
+}
+.hero_wrapper p{
+    font-size: 160%;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: none;
+}
+.form_code button{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: rgb(165, 183, 193);
+    color: black;
+    padding: .3rem;
+    border: none;
+   
+} 
+.product{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(196, 237, 242);
 }
