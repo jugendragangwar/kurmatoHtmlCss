@@ -103,6 +103,7 @@ body {
     border: none;
     border-radius: 50px;
     border-top-left-radius: 0%;
+    cursor: pointer;
 }
 
 .content-right {
