@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ubuntu&family=Varela+Round&display=swap');
 
 body {
-    background-color: aliceblue;
+    background-color: #d0d4d5;
 }
 
 * {
@@ -20,8 +20,8 @@ nav ul {
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
-    color: white;
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
 }
 
 nav ul li {
@@ -46,7 +46,7 @@ nav ul li {
     width: 80%;
     min-height: 72vh;
     /* background-color: rgb(255, 255, 255); */
-    color: white;
+    color: rgb(225, 127, 127);
     font-family:  'varela Round', sans-serif;
     border-radius: 12px;
     padding: 34px;
@@ -60,8 +60,8 @@ nav ul li {
     align-items: center;
     position: sticky;
     height: 130px;
-    background-color: black;
-    color: white;
+    background-color: rgb(58, 58, 58);
+    color: rgb(0, 0, 0);
     flex-direction: column;
 }
 
@@ -82,11 +82,11 @@ nav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: rgb(228, 215, 215);
     width: 70%;
-    color: black;
+    color: rgb(31, 17, 17);
     margin: 10px 0;
-    border-radius: 20px;
+    border-radius: 20px;font-weight: 700;
 }
 
 .songItem img {
