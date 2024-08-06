@@ -1,0 +1,137 @@
+body,
+html {
+    background-color: white;
+    border: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.headermenu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    width: 30%;
+
+}
+
+.btn1 {
+    align-self: center;
+    width: 90px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px
+}
+
+.img2 {
+    height: 500px;
+    width: 170vh;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+
+.centertext {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+}
+
+.centertext2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 30px;
+    margin-left: 110px;
+}
+
+.imagecontainer1,
+.imagecontainer2,
+.imagecontainer3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 70px;
+}
+
+.image1 {
+    height: 250px;
+    width: 300px;
+}
+
+.imagecontainer1 h4 {
+    font-weight: 100;
+}
+
+.image2 {
+    height: 650px;
+    width: 650px;
+
+}
+
+.image3 {
+    height: 250px;
+    width: 400px;
+}
+
+.minicontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    border: solid whitesmoke;
+    margin-top: 120px;
+    height: 200px;
+    width: 100%;
+}
+
+.table {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.table,
+th,
+td {
+    border: none;
+    border-collapse: collapse;
+    padding: 12px;
+    padding-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
