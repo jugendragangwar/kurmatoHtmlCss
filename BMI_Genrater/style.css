@@ -10,25 +10,25 @@ body {
   height: 600px;
   padding-left: 30px;
   padding-right: 30px;
-  border-bottom: solid darkblue;
-  border-left: solid yellow;
-  border-right: solid red;
-  border-top: solid green;
+  border: solid darkblue;
+  box-shadow: 0 2px 10px 0 white, 0 2px 10px 2px white;
   border-top-left-radius: 100px;
 }
-.container h1{
-  color: greenyellow ;
+
+.container h1 {
+  color: greenyellow;
   text-align: center;
   font-weight: 600;
   font-style: italic;
   font-weight: 900;
 }
-.form h3{
+
+.form h3 {
   color: white;
   font-weight: 600;
   text-align: center;
-  /* background-color: #212121; */
 }
+
 .textarea {
   text-align: center;
   font-weight: 500;
@@ -41,31 +41,35 @@ body {
   border-radius: 4px;
   background-color: beige;
 }
+
 .btn {
-display: block;
-margin-right: auto;
-margin-left: auto;
-margin-top: 25px;
-width: 150px;
-border-radius: 20px;
-font-size: 16px;
-background-color: rgb(11, 1, 37);
-color: white ;
-border: none;
-width: 200px;
-height: 30px;
-box-shadow: 0 2px 10px 0 white, 0 2px 10px 2px white;
-}
-#weight-guide{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 16px;
   background-color: rgb(11, 1, 37);
-  margin-top: 20px;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 30px;
+  box-shadow: 0 2px 10px 0 white, 0 2px 10px 2px white;
+}
+
+#weight-guide {
+  background-color: rgb(11, 1, 37);
+  margin-top: 30px;
   border: solid darkslategray;
 }
-#weight-guide h3{
+
+#weight-guide h3 {
   color: white;
   font-weight: 600;
 }
-#weight-guide p{
+
+#weight-guide p {
   text-align: center;
   color: white;
 
